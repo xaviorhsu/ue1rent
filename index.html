@@ -48,21 +48,7 @@
 
       <!-- 導覽列通字體大小與顏色 -->
       <div class="collapse navbar-collapse" id="navbarResponsive" >
-        <ul class="navbar-nav ml-auto">
-		  <script>	
-			var nav = ["portfolio;招租資訊","tastyfood;雅房物件","historic;圖影覽視","family;位置街景","about;相關須知","contact;附　錄"];
-			var str = "";
-			for (var item=0;item<nav.length;item++)	{ var ss=nav[item].split(";");
-				str += '<li class="nav-item"><a class="nav-link rounded js-scroll-trigger" href="#'+ss[0]+'" >'+ss[1]+'</a></li>';	}
-			$("#navbarResponsive ul").html(str); 
-		  </script>
-		  <!--<li class="nav-item"><a class="nav-link rounded js-scroll-trigger" href="#portfolio" >招租資訊</a></li>
-		  <li class="nav-item"><a class="nav-link rounded js-scroll-trigger" href="#tastyfood" >雅房物件</a></li>
-          <li class="nav-item"><a class="nav-link rounded js-scroll-trigger" href="#historic" >圖影覽視</a></li>
-          <li class="nav-item"><a class="nav-link rounded js-scroll-trigger" href="#family" >位置街景</a></li>
-          <li class="nav-item"><a class="nav-link rounded js-scroll-trigger" href="#about" >相關須知</a></li>
-		  <li class="nav-item"><a class="nav-link rounded js-scroll-trigger" href="#contact" >附　錄</a></li>-->
-        </ul>
+        <ul class="navbar-nav ml-auto"><script src="templates/creative/js/navitem.js"></script></ul>
       </div>
     </div>
   </nav>
